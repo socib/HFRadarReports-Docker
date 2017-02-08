@@ -3,7 +3,7 @@
 report_output_directory_host=/home/grogers/Reports
 
 year=2016
-month=1
+month=2
 
 docker run \
 -v /data/current/opendap/observational/mooring/currentmeter/:/data/current/opendap/observational/mooring/currentmeter/ \
