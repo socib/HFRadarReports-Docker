@@ -18,7 +18,7 @@ RUN apt-get autoclean && apt-get clean \
 
 #install python modules
 RUN pip install --upgrade pip \
-	&& pip install numpy==1.11.0 netCDF4==1.2.7 matplotlib==1.5.1 pylatex==1.1.1 requests==2.12.4  \
+	&& pip install numpy==1.11.0 netCDF4==1.2.7 matplotlib==1.5.1 pylatex==1.0.0 requests==2.12.4  \
 	pandas==0.19.2 pytz==2014.10 scipy==0.17.0 oct2py==3.8.1 windrose==1.6 adjustText==0.6.0 
 RUN pip install git+https://github.com/martalmeida/okean.git#egg=okean
 	
