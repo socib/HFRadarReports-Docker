@@ -6,7 +6,7 @@ FROM ubuntu
 
 #Install Base Packages
 RUN apt-get update \
-	&& apt-get install -y python2.7 python-pip git octave texlive-latex-extra vim \
+	&& apt-get install -y python2.7 python-pip git octave texlive-latex-extra vim latexmk \
 	libgeos-dev libgeos-3.5.0 libgeos++-dev wget libfreetype6-dev libpng-dev libxft-dev gfortran
 
 #Install Octave Packages
